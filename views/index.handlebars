@@ -6,10 +6,10 @@
 
 Create a button in index.handlebars that will submit the user input into the database. --}}
 
-{{!-- <ul>
-  {{#each cats}}
+<ul>
+  {{#each burgers}}
     {{#unless sleepy}}
-      {{> cats/cat-block sleep=true}}
+      {{> views/index devoured=true}}
     {{/unless}}
   {{/each}}
 </ul>
@@ -17,9 +17,9 @@ Create a button in index.handlebars that will submit the user input into the dat
 <h2>Cats that are sleepy!</h2>
 
 <ul>
-  {{#each cats}}
+  {{#each burgers}}
     {{#if sleepy}}
-      {{> cats/cat-block sleep=false}}
+      {{> views/index devoured=false}}
     {{/if}}
   {{/each}}
 </ul>
@@ -39,4 +39,4 @@ Create a button in index.handlebars that will submit the user input into the dat
   </div>
 
   <button type="submit">Add Cat</button>
-</form> --}}
+</form>

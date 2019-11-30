@@ -4,3 +4,5 @@ This is a burger logger using JavaScript, MySQL, Node, Express, Handlebars and O
 
 Link to deployed site:
 ###
+
+![Image description](link)

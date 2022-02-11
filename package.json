@@ -4,7 +4,7 @@
   "description": "This is a burger logger using JavaScript, MySQL, Node, Express, Handlebars and ORM. Uses the MVC design pattern. Used Node and MySQL to query and route data, and Handlebars to generate HTML.",
   "main": "server.js",
   "dependencies": {
-    "express-handlebars": "^3.1.0",
+    "express-handlebars": "^5.3.1",
     "express": "^4.17.1",
     "mysql": "^2.17.1"
   },
